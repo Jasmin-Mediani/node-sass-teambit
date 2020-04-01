@@ -12,7 +12,7 @@ button {
   height: 40px;
   width: 175px;
   padding: 5px;
-  background-color: #30488F;
+  background-color: #30488f;
   border: none;
   border-radius: 5px;
   display: flex;
@@ -33,7 +33,7 @@ main .section1 {
   width: 77%;
   margin: auto;
   display: flex;
-  color: #58402C;
+  color: #58402c;
 }
 
 main .section1 .container {
@@ -86,6 +86,19 @@ main .section1 .bottoni .or {
   font-size: 13px;
 }
 
+main .section2 {
+  height: 300vh;
+  background-color: #ffe7d2;
+}
+
+main .section2 h2 {
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+}
+
 header {
   height: 70px;
   width: 77%;
@@ -107,7 +120,7 @@ header nav ul {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  color: #58402C;
+  color: #58402c;
   font-weight: 400px;
 }
 
