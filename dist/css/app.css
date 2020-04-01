@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+header {
+  height: 70px;
+  width: 77%;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  width: 500px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul .google-signup {
+  border-radius: 5px;
+  border: 1px solid blue;
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header nav ul .google-signup img {
+  width: 20px;
+  height: 20px;
+}
+
