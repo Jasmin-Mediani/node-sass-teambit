@@ -1,15 +1,10 @@
 .section2 {
-    height: 300vh;
-    background-color: $colore-pesca-principale;
-    
-    h2 {
-        @include primo-titolo; 
-    }
-       
+  height: 300vh;
+  background-color: $colore-pesca-principale;
+  color: $testo-principale;
+  /*border: 1px solid red;*/
 
-        
-        
-    
+  h2 {
+    @include primo-titolo;
+  }
 }
-
-

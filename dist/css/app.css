@@ -89,6 +89,8 @@ main .section1 .bottoni .or {
 main .section2 {
   height: 300vh;
   background-color: #ffe7d2;
+  color: #58402c;
+  /*border: 1px solid red;*/
 }
 
 main .section2 h2 {
