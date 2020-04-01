@@ -1,58 +1,8 @@
 main {
-    .section1 {
-        height: calc(100vh - 70px);
-        width: 77%;
-        margin: auto;
-        display: flex;
-        color: $testo-principale;
-
-
-        .container {
-            width: 50%;
-
-            &-sx {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                div,
-                h1,
-                h3 {
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                }
-
-                h1 {
-                    font-size: 50px;
-                    line-height: 70px;
-                    letter-spacing: 2px;
-                }
-
-                h3 {
-                    font-size: 20px;
-                    line-height: 35px;
-                    letter-spacing: 2px;
-                }
-            }
-
-            &-dx {
-                @include flex-center;
-
-                img {
-                    width: 100%;
-                }
-            }
-        }
-
-        .bottoni {
-            display: flex;
-
-            .or {
-                margin-left: 15px;
-                margin-right: 15px;
-                align-self: center;
-                font-size: 13px;
-            }
-        }
-    }
+    @import "partials/_sezione1.scss";
+    //@import "partials/_sezione2.scss";
+    //@import "partials/_sezione3.scss";
+    //@import "partials/_sezione4.scss";
+    //@import "partials/_sezione5.scss";
+    //@import "partials/_sezione6.scss";
 }
