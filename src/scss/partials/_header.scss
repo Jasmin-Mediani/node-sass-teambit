@@ -1,40 +1,42 @@
 header {
-    height: 70px;
-    width: 77%;
-    border-bottom: 1px solid black;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 70px;
+  width: 77%;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bolder;
 
+  nav {
+    width: 500px;
 
-    nav {
-        width: 500px;
+    ul {
+      @include flex-center;
+      justify-content: space-between;
+      color: $testo-principale;
+      font-weight: 400px;
 
-        ul {
-            @include flex-center;
-            justify-content: space-between;
+      li {
+        display: inline-block;
+      }
 
-            li {
-                display: inline-block;
-            }
+      .google-signup {
+        border-radius: 5px;
+        height: 40px;
+        width: 100px;
 
-            .google-signup {
-                border-radius: 5px;
-                border: 1px solid blue;
-                height: 40px;
-                width: 80px;
+        @include flex-center;
+        justify-content: space-evenly;
 
-                @include flex-center;
-                justify-content: space-around;
+        i {
+          width: 20px;
+          height: 20px;
+          margin-top: 5px;
 
-                img {
-                    width: 20px;
-                    height: 20px;
-
-                }
-            }
         }
+      }
     }
-
+  }
 }

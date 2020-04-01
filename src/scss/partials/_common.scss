@@ -1,3 +1,24 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button {
+    height: 40px;
+    width: 175px;
+    padding: 5px;
+    background-color: $colore-bottoni;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+
+
+    img {
+        height: 20px;
+        width: 20px;
+    }
 }
