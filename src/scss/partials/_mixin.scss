@@ -18,3 +18,11 @@
     font-size: 18px;
     font-weight: bolder;
 }
+
+@mixin or {
+    margin-left: 15px;
+    margin-right: 15px;
+    align-self: center;
+    font-size: 13px;
+    color: gray;
+}

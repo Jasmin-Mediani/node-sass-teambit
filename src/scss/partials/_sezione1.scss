@@ -4,6 +4,8 @@
     margin: auto;
     display: flex;
     color: $testo-principale;
+    background-color: $colore-bianco-principale;
+
 
 
     .container {
@@ -47,10 +49,9 @@
         display: flex;
 
         .or {
-            margin-left: 15px;
-            margin-right: 15px;
-            align-self: center;
-            font-size: 13px;
+            @include or;
         }
     }
+
+
 }

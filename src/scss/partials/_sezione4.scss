@@ -1,0 +1,95 @@
+.section4 {
+    height: 120vh;
+    background-color: $colore-pesca-principale;
+    color: $testo-principale;
+
+    .row-titolo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 70px;
+
+
+        h2 {
+            @include primo-titolo;
+            font-size: 37px;
+            letter-spacing: 4px;
+            padding-top: 0;
+        }
+
+    }
+
+    .jumbotron-e-quote {
+        width: calc(100wv / 3);
+        margin-top: 50px;
+        position: relative;
+
+        .quote {
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(calc(50% - 343px));
+            top: -19px;
+        }
+
+        .jumbotron {
+            height: 450px;
+            width: 650px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 30px;
+            background-color: $colore-bianco-principale;
+            border-radius: 7px;
+            border: 1px solid rgb(184, 184, 184);
+
+            p {
+                padding-bottom: 25px;
+                font-size: 17px;
+            }
+
+            .avatar-e-firme {
+                display: flex;
+
+                .avatar {
+                    img {
+                        width: 50px;
+                    }
+
+                    img:first-child {
+                        margin-right: 15px;
+                    }
+                }
+
+                .firme {
+                    padding-left: 20px;
+
+                    p {
+                        padding: 3px;
+                        font-size: 14px;
+                        color: $colore-link;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
+    .bottoni {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        .or {
+            @include or;
+        }
+    }
+
+    h5 {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+}

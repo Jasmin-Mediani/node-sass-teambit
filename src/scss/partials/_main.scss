@@ -2,7 +2,7 @@ main {
     @import "partials/_sezione1.scss";
     @import "partials/_sezione2.scss";
     @import "partials/_sezione3.scss";
-    //@import "partials/_sezione4.scss";
-    //@import "partials/_sezione5.scss";
-    //@import "partials/_sezione6.scss";
+    @import "partials/_sezione4.scss";
+
+    background-color: $colore-bianco-principale;
 }

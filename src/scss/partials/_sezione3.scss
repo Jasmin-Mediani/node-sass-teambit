@@ -1,4 +1,5 @@
 .section3 {
+
   //height: 400vh
   .sottosezione1,
   .sottosezione3 {
@@ -41,7 +42,7 @@
 
         a {
           text-decoration: none;
-          color: rgb(68, 18, 148);
+          color: $colore-link;
         }
       }
     }
