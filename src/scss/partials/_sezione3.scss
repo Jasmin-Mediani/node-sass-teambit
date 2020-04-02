@@ -1,9 +1,12 @@
 .section3 {
+  margin-bottom: 100px;
 
   .sottosezione1,
   .sottosezione3 {
-    height: 650px;
+    //height: 650px;
     display: flex;
+    margin-top: 100px;
+
 
     .contenitore {
       width: 50%;
@@ -49,8 +52,9 @@
 
   .sottosezione2,
   .sottosezione4 {
-    height: 650px;
+    //height: 650px;
     display: flex;
+    margin-top: 100px;
 
     .contenitore {
       width: 50%;

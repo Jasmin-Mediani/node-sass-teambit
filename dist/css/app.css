@@ -36,6 +36,12 @@ button img {
   list-style: none;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  display: both;
+}
+
 main {
   background-color: #FFFFFF;
 }
@@ -101,7 +107,6 @@ main .section1 .bottoni .or {
 }
 
 main .section2 {
-  height: 1900px;
   background-color: #ffe7d2;
   color: #58402c;
 }
@@ -175,10 +180,14 @@ main .section2 hr {
   margin-top: 50px;
 }
 
+main .section3 {
+  margin-bottom: 100px;
+}
+
 main .section3 .sottosezione1,
 main .section3 .sottosezione3 {
-  height: 650px;
   display: flex;
+  margin-top: 100px;
 }
 
 main .section3 .sottosezione1 .contenitore,
@@ -234,8 +243,8 @@ main .section3 .sottosezione3 .contenitore.contenitore-dx a {
 
 main .section3 .sottosezione2,
 main .section3 .sottosezione4 {
-  height: 650px;
   display: flex;
+  margin-top: 100px;
 }
 
 main .section3 .sottosezione2 .contenitore,
@@ -291,9 +300,9 @@ main .section3 .sottosezione4 .contenitore.contenitore-sx a {
 }
 
 main .section4 {
-  height: 125vh;
   background-color: #ffe7d2;
   color: #58402c;
+  padding-bottom: 100px;
 }
 
 main .section4 .row-titolo {
@@ -436,9 +445,9 @@ header nav ul .google-signup i {
 }
 
 footer {
-  height: 65vh;
   background-color: #FFFFFF;
   color: #58402c;
+  padding-bottom: 50px;
 }
 
 footer .contenitore {

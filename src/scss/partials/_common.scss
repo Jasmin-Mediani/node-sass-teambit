@@ -30,3 +30,9 @@ button {
 *li {
     list-style: none;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    display: both;
+}
