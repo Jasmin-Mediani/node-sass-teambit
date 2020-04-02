@@ -47,7 +47,8 @@ main {
 }
 
 main .section1 {
-  height: 100vh;
+  padding-top: 150px;
+  padding-bottom: 150px;
   width: 77%;
   margin: auto;
   display: flex;
