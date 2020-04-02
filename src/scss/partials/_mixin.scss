@@ -10,5 +10,11 @@
     text-align: center;
     margin: auto;
     padding-top: 70px;
-            
+
+}
+
+@mixin paragrafi-cards {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bolder;
 }

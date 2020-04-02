@@ -5,5 +5,56 @@
 
   h2 {
     @include primo-titolo;
+    height: calc(300vh / 12);
   }
+
+  .row1 {
+    width: 900px;
+    height: calc(300vh / 10);
+    margin: auto;
+    @include flex-center;
+
+    .card {
+      width: calc(900px / 3);
+      height: 100%;
+      flex-direction: column;
+      @include flex-center;
+      text-align: center;
+      justify-content: space-evenly;
+
+
+      p {
+        @include paragrafi-cards;
+      }
+
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .row2 {
+    width: 900px;
+    height: calc(300vh / 4);
+    margin: auto;
+    @include flex-center;
+
+    img {
+      width: 32%;
+    }
+  }
+
+  hr {
+    width: 77%;
+    margin: auto;
+    height: 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+  }
+
+
+
 }
