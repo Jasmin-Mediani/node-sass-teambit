@@ -1,16 +1,16 @@
 .section2 {
-  height: 300vh;
+  height: 260vh;
   background-color: $colore-pesca-principale;
   color: $testo-principale;
 
   h2 {
     @include primo-titolo;
-    height: calc(300vh / 12);
+    height: calc(260vh / 12);
   }
 
   .row1 {
-    width: 900px;
-    height: calc(300vh / 10);
+    max-width: 900px;
+    height: calc(300vh / 9);
     margin: auto;
     @include flex-center;
 
@@ -31,12 +31,21 @@
       img {
         width: 50%;
       }
+
     }
   }
 
+
+
+  .card-speciale img {
+    height: 50%;
+    width: 200px;
+    object-fit: contain;
+  }
+
   .row2 {
-    width: 900px;
-    height: calc(300vh / 4);
+    max-width: 900px;
+    height: calc(300vh / 5);
     margin: auto;
     @include flex-center;
 
@@ -52,8 +61,10 @@
     border-bottom: none;
     border-left: none;
     border-right: none;
+    margin-top: 50px;
 
   }
+
 
 
 
