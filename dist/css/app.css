@@ -101,7 +101,7 @@ main .section1 .bottoni .or {
 }
 
 main .section2 {
-  height: 260vh;
+  height: 1900px;
   background-color: #ffe7d2;
   color: #58402c;
 }
@@ -177,7 +177,7 @@ main .section2 hr {
 
 main .section3 .sottosezione1,
 main .section3 .sottosezione3 {
-  height: 100vh;
+  height: 650px;
   display: flex;
 }
 
@@ -234,7 +234,7 @@ main .section3 .sottosezione3 .contenitore.contenitore-dx a {
 
 main .section3 .sottosezione2,
 main .section3 .sottosezione4 {
-  height: 100vh;
+  height: 650px;
   display: flex;
 }
 
